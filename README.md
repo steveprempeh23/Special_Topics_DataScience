@@ -43,7 +43,43 @@ When creating a notebook, select the Python kernel associated with this project'
 
 ## Dependencies
 
-The full dependency list is maintained in [requirements.txt](requirements.txt). Install or update the environment whenever that file changes:
+```
+# General Data Science
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# Jupyter
+jupyter
+ipykernel
+
+# Hugging Face
+torch
+transformers
+datasets
+huggingface_hub
+accelerate
+evaluate
+
+# Embeddings
+sentence-transformers
+
+# Fine-Tuning
+peft
+trl
+
+# RAG
+langchain
+langchain-community
+chromadb
+pypdf
+
+# Modal
+modal
+```
+
+The full list is also maintained in [requirements.txt](requirements.txt). Install or update the environment whenever that file changes:
 
 ```
 python -m pip install -r requirements.txt
